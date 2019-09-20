@@ -9,6 +9,9 @@ function App() {
   const counter = useSelector(state => state.counterReducer);
   const loginStatus = useSelector(state => state.loggedReducer);
 
+  console.log(counter)
+  console.log(loginStatus)
+
   const dispatch = useDispatch();
   
   return (
